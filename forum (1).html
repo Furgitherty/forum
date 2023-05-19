@@ -8,6 +8,16 @@
     
         <style>
 
+            html {
+
+                background-color: rgb(0, 0, 0);
+
+                color: rgb(52, 150, 255);
+
+                font-weight: bolder;
+
+            }
+
             .care {
 
                 text-align: center;
@@ -20,29 +30,36 @@
 
                 text-align: center;
 
-                padding-left: 100px;
+                padding-left: 50%;
 
-                border: 1px solid black;
+                border: 1px double rgb(255, 255, 255);
 
 
             }
 
             #protect {
 
-                padding-top: 100px; 
-
-                padding-bottom: 100px;
+                
 
                 text-align: center;
 
-                border: 1px solid black;
+                border: 1px double rgb(255, 255, 255);
 
             }
 
             #spirit {
 
                 position: relative;
-                top: 160px;
+                
+                top: 50px;
+                
+                padding-top: 10px; 
+
+                padding-bottom: 100px;
+
+                margin-left: 50%;
+
+                margin-right: 50%;
 
             }
 
@@ -77,52 +94,98 @@
 
                     <div>
 
-                        <label for="fname">First name:</label>
-                        <input type="text" id="first-and-last-names-given-by-grace" name="fname">
+                        <p>
+
+                            <label for="fname">First name:</label>
+                            <input type="text" id="first-and-last-names-given-by-grace" name="fname">
+
+                        </p>
 
                     </div>
 
                     <div>
+
+                        <p>
                 
-                        <label for="lname">Last name:</label>
-                        <input type="text" id="first-and-last-names-given-by-grace" name="lname"> <br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="first-and-last-names-given-by-grace" name="lname"> <br>
+
+                        </p>
 
                     </div>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="first-and-last-names-given-by-grace" name="email"> <br>
+                        <p>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="first-and-last-names-given-by-grace" name="email"> <br>
                     
-                    <div id="spirit">
-
-                        <input type="submit" value="Submit">
+                        </p>
 
                     </div>
 
-                    <div>
+                    
 
-                        <label for="occupation">Occupation:</label>
+                    <div id="protect">
+
+                        <p>
+
+                            <label for="occupation">Occupation:</label>
+
+                        </p>
 
                         <select name="occupation">
 
-                            <option value="Coder">Coder</option>
+                            <p>
 
-                            <option value="Astronaut">Spiritualist</option>
+                                <option value="Coder">Coder</option>
 
-                            <option value="Proponent"> Proponent </option>
+                            </p>
 
-                            <option value="Accountant"> Accountant </option>
+                            <p>
+
+                                <option value="Astronaut">Spiritualist</option>
+
+                            </p>
+
+                            <p>
+
+                                <option value="Proponent"> Proponent </option>
+
+                            </p>
+
+                            <p>
+
+                                <option value="Accountant"> Accountant </option>
                         
+                            </p>
+
                         </select>
 
-                        <label for="other">Other:</label>
+                        <p>
+
+                            <br> <label for="other">Other:</label>
+
+                        </p>
+
+                        <p>
 
                             <input type="text" id="propertyof">
+
+                        </p>
+
+                    </div>
+
+                    <div id="spirit">
+
+                        <p>
+
+                            <input type="submit" value="Submit">
+
+                        </p>
 
                     </div>
 
                 </form>
-
-            </div>
 
         </body>
 
